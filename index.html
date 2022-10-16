@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Side Bar Navigation</title>
+    <!-- bootstrap 5 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    
+    <nav class="navbar navbar-expand d-flex flex-column  " id="sidebar">
+        <a href="#" class="navbar-brand text-light mt-5">
+            <div class="display-5 font-weight-bold">  <img src="https://community.nasscom.in/wp-content/uploads/2019/06/Ritesh-Agarwal-291x300.png" alt="" width="55" height="50" class="d-inline-block align-text-top-right">  OYO</div>
+        </a>
+        <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+            <li class="nav-item w-100">
+                <a href="#" class="nav-link text-light pl-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer" viewBox="0 0 16 16">
+                    <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                    <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z"/>
+                  </svg> Dashboard</a>
+            </li>
+            <li class="nav-item w-100">
+                <a href="#" class="nav-link text-light pl-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-check-fill" viewBox="0 0 16 16">
+                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm1.354 4.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                  </svg> Projects</a>
+            </li>
+            <li class="nav-item w-100">
+                <a href="#" class="nav-link text-light pl-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                    <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                  </svg>  Earnings</a>
+            </li>
+            <li class="nav-item w-100">
+                <a href="#" class="nav-link text-light pl-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                  </svg> profile</a>
+                  <li class="nav-item w-100">
+                    <a href="#" class="nav-link text-light pl-4"> Support</a>
+                </li>
+            </li>
+            <li class="nav-item w-100">
+                <a href="#" class="nav-link text-light pl-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ticket-perforated-fill" viewBox="0 0 16 16">
+  <path d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6V4.5Zm4-1v1h1v-1H4Zm1 3v-1H4v1h1Zm7 0v-1h-1v1h1Zm-1-2h1v-1h-1v1Zm-6 3H4v1h1v-1Zm7 1v-1h-1v1h1Zm-7 1H4v1h1v-1Zm7 1v-1h-1v1h1Zm-8 1v1h1v-1H4Zm7 1h1v-1h-1v1Z"/>
+</svg> Tickets</a>
+            </li>
+            <li class="nav-item dropdown w-100">
+                <a href="#" class="nav-link dropdown-toggle text-light pl-4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Service</a>
+                <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                    <li><a href="#" class="dropdown-item text-light pl-4 p-2">Service 01</a></li>
+                    <li><a href="#" class="dropdown-item text-light pl-4 p-2">Service 02</a></li>
+                    <li><a href="#" class="dropdown-item text-light pl-4 p-2">Service 03</a></li>
+                </ul>
+            </li>
+            <li class="nav-item w-100">
+                <a href="#" class="nav-link text-light pl-4">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+<!-- navbar logo left start  align-item-start -->
+
+  <div class="container-fluid ">
+    <div class=" navbar-brand d-flex justify-content-between">
+        <div>    </div>
+        <div>
+
+            <a class="navbar-brand " href="#">
+                Ritesh Agarwal
+                <img src="https://community.nasscom.in/wp-content/uploads/2019/06/Ritesh-Agarwal-291x300.png" alt="" width="55" height="50" class="d-inline-block align-text-top-right">
+                
+              </a>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- navbar logo left end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="p-4 my-container ">
+        <button class="btn my-4 " id="menu-btn">Menu <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg> </button>
+
+
+
+
+
+
+
+
+        
+        
+
+ 
+        <section class="p-4 my-container">
+    
+  
+  <!-- card row 1 start -->
+
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+
+
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+
+
+  </div>
+  
+<!-- card row 1 end -->
+
+
+<!-- card row 2 start -->
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+
+
+  </div>
+
+
+  
+<!-- card row 2 end -->
+
+
+<!-- card row 3 start -->
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+
+
+  </div>
+  
+<!-- card row 3 end -->
+
+<!-- card row 4 start -->
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+
+
+  </div>
+  
+<!-- card row 4 end -->
+
+<!-- card row 5 start -->
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAdVBMVEXtMCv////tJiDsIhvtLCfsAADtKiTsHxjyfnvsFw7sDgDsHRXzi4n0k5HsEgb2qKf6zczuQDz97+/1oqHwWVbxbWv85OP+9vb5xMPtNTD1nJr3tbT3sbD73NvwXlv96enuR0PyeHb4vbzzhYPwZmP61NPvUk/JTNDWAAAFWklEQVRogbWa64KqIBCAEVBD01JT02rtZu//iAc0YBQtK8782i36Goe5QshZIGWzz9b5LkFckl2+zvZNueRz6O2Ktr5XASPYo6gT6mHCgupet7/C2xthvsRCoZ7PyO0N/xU8zRIXm1wt2E2y9Ct4s2L+hMqjBwjD2zx+Dp7eXiuthQTrOfwMvPbJMnSHx9kH8DYJl6OFcdj5tBQeBW9tPRYvrhfB0w/Vfgp7mHFlwFvsfcPmflkZphnDD+7HJpFC3f1reBZ8ixYSHF/Bo5/YCLmbefhvenf04xz88DObW2Y/Dd+6v7O57qcpeIq/9hMotCon4MmX/j0W/DDh0VdxOSUsG8O3FjZTSnwawSsrBu/FOw/htTWjCIk3EN74Ntm8epcAvvqg7iwRP9Lwxkr4QIlTBV8trMXLhUQSnjLbbG6Y8gmv7W5nJ+HxCU8s+rgU+ujhrfXtFCKyI/of2ylEbCmHGxanHiFEJWAPP0W20OQpMotSTHxi5GtaCXg78hXMcB7V0aViRHzAy1dP6dMPPddRJ/Wle2LC0KXe1GL5kBMXHF4PXsThTea0IvL4WziSCXTfJU63UEmawzFey/+LNR7Yl/sLcu6wSLC/Rlcpp7xwHlM9rPAqnMv/RHQEOWxw0zyGal4cVMJka3R8hxiRtfznynFMlcg1QfGoT3E2gE7PDipAlQjMVvjqIl9pd6ZAcR+5V2P5Abg1S9Fe7ye5GYt5LxMC1WNt8TUJpxpbUC2DFmVqP4XzTMjDC1Q9r5TiZaDqzVDOysrhEa3VFjPzKYW0rlb9oMa3iATbyeW6GJMa5ToW1ILyegSffHjEGHpS7CUAeADLVabCN7RTfyv9WhyHMVXrN8DqSnGfKP9PzzGLkXomFTfeHSXKKrLLS7sJkQZy704xckdTQ+miWH556gnD0lgu30p3pDtUqc2V7677ZINX8tMUjVWPCApHy9WSQsHP2i1DGZvSaKFUk4eZDwOXW5x/VO7D0z2odJ5URXwyAZfOFEP4QHXR5Rhw2SKmVMO1WU7gowhkkU6VADhMKRYos0S9WXy5wcosHK43VLp5SbsdUl92iqFJHeE+4rmke6Sh+HJPJQm9oQ/ginIDnUb4FnTFTjOtercpvgr+U8WX6zkxAq6ogggxrVt7BVGx61aEKqnt48EGOqMgqrS2MPwPzpSc+kSng6Z/EuS+C38cvU9cveImnL5LXP4Gply14VCyZw414CicWg568Xg7KBYT2f8qs78JR65pR1gsggaVCJa58fKDctoJuGrylRxhmUtK5PzBAh1cYHYtV/qxpuAovsO0kOZwsOJBiLRf9i8R1VqkWQXeIsqvj2DEwb5afrr5g9bCzyabIv/vFkWrZHg4R8+yOdp5w+We6KFy3ksNOXym4+2cOWt5mEz0Z6O2DrwBejv9qtf1ipf/0oiKwobszrda3LaDD5zRlnTxKyaLyPKgKKTLcwJe/IeBK0yfcCe3Pyp2nWEHP1mfitxGwa2r/mxpe3hh9dCCw1MAl52NJZFnRfIwx6avU9mjSvjeYpgG7Qju3KwZRpc/ffRXWTr6AxOHhjfEzqGll07AbR23gospeFB8tHFQDEv84Ii7/pk+nGTtHs4Hwz5pdK3wm+7jCXx8IXL85UJkfBRgXOVsv73K8bDR9pqXUM13l1Bh0hioqeuz9efXZzQw5uAZuLOtPlQ+rCYngbkry/CDjgBPHo7Mw51mtfSyFbsr09qv4bz0Lbom9tmlmEW8uuBu6ip4fcEdVPWc1u/gXLarkJHpq3nCwsv0QLcUzqWN/pD5owL6F70hL4JzKYv+5xAVQlX3c4hrsejnEP8AwGdFg8U4IqYAAAAASUVORK5CYII=" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        <div class="card ">
+            <div class="card-body position-relative ">
+              <h6 class="card-title">   <img src="data:image/png;base64,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" alt="" width="36" height="33" class="d-inline-block align-text-top-right">      OYO &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#" class="btn btn-outline-success">Submit Work</a> </h6>
+              <h5 class="card-title">Pune</h5>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8"> <p class="card-text"> OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes .</p> </div>
+                    <div class="col-sm-3 text-center align-self-center "> <p style="font-size:20px; font-weight:bold; "> <span style="color: #E0115F"> ₹2500</span>  </p>  </div>
+
+                  </div>
+              </div>
+              </div>
+          </div>
+
+    </div>
+
+
+  </div>
+  
+<!-- card row 5 end -->
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script>
+        var menu_btn = document.querySelector("#menu-btn")
+        var sidebar = document.querySelector("#sidebar")
+        var container = document.querySelector(".my-container")
+        menu_btn.addEventListener("click", () => {
+            sidebar.classList.toggle("active-nav")
+            container.classList.toggle("active-cont")
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
